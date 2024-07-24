@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    /* espaçamento externo */
+
+    padding: 0;
+    /* espaçamento interno */
+
+    box-sizing: border-box;
+    /* referência de espaçamento entre itens */
+}
+
+html{
+    scroll-snap-type: y mandatory;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.sub-titulo {
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.text-rodape {
+    color: white;
+    font-size: 12px;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.vid-bg {
+    width: 100%;
+    /* largura */
+
+    height: 100%;
+    /* altura */
+
+    position: absolute;
+    /* define uma posição exata e absoluta para o item */
+
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* define ordem de camadas entre os itens */
+
+    object-fit: cover;
+    /* define tipo de encaixe do item sobre a tela */
+
+    filter: brightness(60%);
+}
+
+.img-bg {
+    width: 100%;
+    /* largura */
+
+    height: 100%;
+    /* altura */
+
+    position: absolute;
+    /* define uma posição exata e absoluta para o item */
+
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* define ordem de camadas entre os itens */
+
+    object-fit: cover;
+    /* define tipo de encaixe do item sobre a tela */
+
+    filter: brightness(60%);
+}
+
+.logo {
+    filter: brightness(100);
+    position: fixed;
+    width: 120px;
+    /* largura */
+}
+
+.item {
+    display: flex;
+    /* habilita algumas propriedades CSS*/
+
+    justify-content: space-between;
+    /* cria um espaçamento entre itens */
+
+    flex-direction: column;
+    /* define ordenamento em colunas */
+
+    position: relative;
+    height: 100vh;
+    width: 98.7vw;
+    scroll-snap-align: start;
+}
+
+.info-carro {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.rodape {
+    margin-top: 80px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bot-finan {
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 26px;
+    font-style: normal;
+    color: white
+}
+.bot-teste {
+    background-color: rgba(34, 34, 34, 0.8);
+    color: white;
+    margin-bottom: 60px;
+
+}
+
+.bot-comprar {
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    margin-bottom: 60px;
+
+}
+
+.imgmodel-3 {
+width: 100%;
+/* largura */
+
+height: 100%;
+/* altura */
+
+position: absolute;
+/* define uma posição exata e absoluta para o item */
+
+top: 100;
+left: 0;
+z-index: -1;
+/* define ordem de camadas entre os itens */
+
+object-fit: cover;
+/* define tipo de encaixe do item sobre a tela */
+
+filter: brightness(60%);
+}
+
+.imgmodel-s {
+width: 100%;
+/* largura */
+
+height: 100%;
+/* altura */
+
+position: absolute;
+/* define uma posição exata e absoluta para o item */
+
+top: 200;
+left: 0;
+z-index: -1;
+/* define ordem de camadas entre os itens */
+
+object-fit: cover;
+/* define tipo de encaixe do item sobre a tela */
+
+filter: brightness(60%);
+}
+
+.formulario {
+    position: fixed;
+    top: 40px;
+    left: -70%;
+    width: 600px;
+    height: 100%;
+    z-index: 3;
+    transition: 1.5s;
+}
